@@ -62,3 +62,49 @@ span > img {
 section {
     display: flex;
 }
+
+#icon {
+    margin-top: -10px;
+    font-size: 30px;
+}
+
+@media (max-width: 375px) {
+
+    body h4 {
+        display: flex;
+        font-size: 13px;
+        margin: 10px auto;
+    }
+
+    .main{
+        font-size: 12px;
+        width: 350px;
+    }
+
+    span h1 {
+        font-size: 20px;
+    }
+
+    .span-2 {
+        font-size: 13px;
+    }
+
+    #icon {
+        margin-top: -5px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        display: flex;
+
+    }
+
+    .main{
+        display: flex;
+        font-size: 12px;
+        width: 320px;
+    }
+}
